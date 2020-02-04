@@ -15,10 +15,10 @@ body {
 .bio {
   color: white;
   font-weight: 900;
-  border: 1px solid #454545;
+  border: 2px solid #313131;
   width: 350px;
   border-radius: 20px;
-  background-color: #353535;
+  background-color: #1d1d1d;
   margin-top: 42px;
 }
 
