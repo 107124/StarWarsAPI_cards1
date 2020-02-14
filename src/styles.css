@@ -1,6 +1,8 @@
 body {
   background-color: black;
   margin: 0px;
+  background-image: url("https://i.pinimg.com/originals/ea/1d/97/ea1d9797c9bf3dda7a23b238e5e4b364.jpg");
+  background-attachment: fixed;
 }
 
 .App {
@@ -18,7 +20,7 @@ body {
   border: 2px solid #313131;
   width: 350px;
   border-radius: 20px;
-  background-color: #1d1d1d;
+  background-color: #1d1d1d8e;
   margin-top: 42px;
 }
 
