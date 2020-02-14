@@ -47,7 +47,7 @@ const Bio = props => {
       </p>
 
       <div className="buttons">
-        <button className="button" onClick={handleHomeworld}>
+        <button className="button1" onClick={handleHomeworld}>
           See Homeworld Info
         </button>
         <p>
@@ -59,7 +59,7 @@ const Bio = props => {
           <span className="value">{homeworld.terrain}</span>
         </p>
 
-        <button className="button" onClick={handleSpecies}>
+        <button className="button2" onClick={handleSpecies}>
           See Species Info
         </button>
       </div>
