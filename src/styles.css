@@ -47,7 +47,7 @@ img {
   background-color: rgb(240, 247, 255);
   font-weight: 600;
   color: rgb(87, 87, 87);
-  border-color: #0d94f5d6;
+  border-color: white;
   box-shadow: 0px 0px 30px 13px rgb(17, 155, 253);
   font-size: 1.2em;
   cursor: pointer;
@@ -62,7 +62,7 @@ img {
   background-color: rgb(240, 247, 255);
   font-weight: 600;
   color: rgb(87, 87, 87);
-  border-color: rgba(22, 250, 52, 0.87);
+  border-color: white;
   box-shadow: 0px 0px 30px 13px rgba(0, 236, 0, 0.87);
   font-size: 1.2em;
   cursor: pointer;
@@ -78,7 +78,7 @@ img {
   background-color: rgb(240, 247, 255);
   font-weight: 600;
   color: rgb(87, 87, 87);
-  border-color: rgba(236, 0, 0, 0.87);
+  border-color: white;
   box-shadow: 0px 0px 30px 13px rgba(236, 0, 0, 0.87);
   font-size: 1.2em;
   cursor: pointer;
@@ -90,7 +90,7 @@ img {
   background-color: rgb(240, 247, 255);
   font-weight: 600;
   color: rgb(87, 87, 87);
-  border-color: #e20df5d6;
+  border-color: white;
   box-shadow: 0px 0px 30px 13px rgb(253, 17, 253);
   font-size: 1.2em;
   cursor: pointer;
