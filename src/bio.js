@@ -22,28 +22,59 @@ const Bio = props => {
         src="https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=0%2C53%2C1536%2C768&width=960"
         alt={props.character.name}
       />
-      <h3>{props.character.name}</h3>
-      <p>Height: {props.character.height}</p>
-      <p>Mass: {props.character.mass}</p>
-      <p>Hair Color: {props.character.hair_color}</p>
-      <p>Eye Color: {props.character.eye_color}</p>
-      <p>Birth Year: {props.character.birth_year}</p>
-      <p>Gender: {props.character.gender}</p>
+      <p className="char-name">{props.character.name}</p>
+      <span className="key">Height: </span>
+      <span className="value">{props.character.height}</span>
+      <p>
+        <span className="key">Mass: </span>
+        <span className="value">{props.character.mass}</span>
+      </p>
+      <p>
+        <span className="key">Hair Color: </span>
+        <span className="value">{props.character.hair_color}</span>
+      </p>
+      <p>
+        <span className="key">Eye Color: </span>
+        <span className="value">{props.character.eye_color}</span>
+      </p>
+      <p>
+        <span className="key">Birth Year: </span>
+        <span className="value">{props.character.birth_year}</span>
+      </p>
+      <p>
+        <span className="key">Gender: </span>
+        <span className="value">{props.character.gender}</span>
+      </p>
 
       <div className="buttons">
         <button className="button" onClick={handleHomeworld}>
           See Homeworld Info
         </button>
-        <p>Homeworld: {homeworld.name}</p>
-        <p>Terrain: {homeworld.terrain}</p>
+        <p>
+          <span className="key">Homeworld: </span>
+          <span className="value">{homeworld.name}</span>
+        </p>
+        <p>
+          <span className="key">Terrain: </span>
+          <span className="value">{homeworld.terrain}</span>
+        </p>
 
         <button className="button" onClick={handleSpecies}>
           See Species Info
         </button>
       </div>
-      <p>Species: {species.name}</p>
-      <p>Average Lifespan: {species.average_lifespan}</p>
-      <p>Language: {species.language}</p>
+      <p>
+        <span className="key">Species: </span>
+        <span className="value">{species.name}</span>
+      </p>
+      <p>
+        <span className="key">Lifespan: </span>
+        <span className="value">{species.average_lifespan}</span>
+      </p>
+      <p>
+        <span className="key">Language: </span>
+        <span className="value">{species.language}</span>
+      </p>
     </div>
   );
 };
