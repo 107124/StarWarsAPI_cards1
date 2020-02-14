@@ -32,6 +32,12 @@ img {
 
 .char-name {
   font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.486);
+  text-align: center;
+  margin: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
   color: rgb(190, 188, 31);
 }
 
