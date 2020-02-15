@@ -24,7 +24,9 @@ const Bio = props => {
       />
       <p className="char-name">{props.character.name}</p>
       <span className="key">Height: </span>
-      <span className="value">{props.character.height}</span>
+      <span className="value">
+        {(props.character.height / 30.48).toFixed(1)}
+      </span>
       <p>
         <span className="key">Mass: </span>
         <span className="value">{props.character.mass}</span>
