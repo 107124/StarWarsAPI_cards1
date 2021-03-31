@@ -10,7 +10,7 @@ const App = () => {
 
   React.useEffect(() => {
     const fetchData = async () => {
-      let response = await fetch("https://swapi.co/api/people/").then(
+      let response = await fetch("https://swapi.dev/api/people/").then(
         response => response.json()
       );
       setCharacters(response.results);
